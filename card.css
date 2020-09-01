@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.slide-container {
+  margin: auto;
+  width: 600px;
+  text-align: center;
+}
+
+
+
+
+
+.clash-card {
+  background: indigo;
+  width: 300px;
+  display: inline-block;
+  margin: 70px;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+}
+
+.clash-card__image {
+  position: relative;
+  height: 225px;
+  margin-bottom: 35px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+.clash-card__image--barbarian {
+  background-image: url("src/zed-full.png");
+}
+.clash-card__image--anivia {
+  background-image: url("src/anivi-full.png");
+}
+
+.img-barb {
+    width: 450px;
+    position: absolute;    
+    top: -65px;
+    left: -70px;
+  }
+
+.clash-card__level {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+
+
+.clash-card__unit-name {
+  font-size: 26px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.clash-card__unit-description {
+  padding: 20px;
+  margin-bottom: 10px;  
+}
+
+.clash-card__unit-stats--barbarian {
+  background-color: rgb(51, 14, 77)
+}
+
+
+.clash-card__unit-stats {
+  
+  color: white;
+  font-weight: 700;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+ .one-third {
+    width: 33%;
+    float: left;
+    padding: 20px 15px;
+  }
+  
+  sup {
+    position: absolute;
+    bottom: 4px; 
+    font-size: 45%;
+    margin-left: 2px;
+  }
+  
+  .stat {
+    position: relative;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .stat-value {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .no-border {
+    border-right: none;
+  }
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.slick-prev {
+  left: 100px;
+  z-index: 999;
+}
+
+.slick-next {
+  right: 100px;
+  z-index: 999;
+}

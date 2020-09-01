@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="card.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LoR analytics</title>
+    </head>
+    <body>
+        <header>
+            <h1>LoR analytics</h1>
+        </header>
+        <aside>
+            <div class="inf1"></div>
+            <div id="div1"></div>
+            
+            <div class="inf2"></div>
+            <div id="div2"></div>
+
+        </aside>    
+        <div class="formulario">
+                <h3>Ingresa tus resultados</h3>
+                <label>Deck</label>
+                <input type="text" id="deck">
+                <button class="win" id="w" onclick="addWin()"><span>Win</span></button>
+                <button class="lose" id="l" onclick="addLose()"><span>Lose</span></button>
+        </div>
+        <div class="clash-card barbarian">
+            <div class="clash-card__image clash-card__image--barbarian">
+              <img class ="img-barb" src="src/zed-tr.png"/>
+            </div>
+            <div class="clash-card__unit-name">Zed</div>
+            <div class="clash-card__unit-description">
+              The Barbarian is a kilt-clad Scottish warrior with an angry, battle-ready expression, hungry for destruction. He has Killer yellow horseshoe mustache.
+            </div>
+      
+            <div class="clash-card__unit-stats clash-card__unit-stats--barbarian clearfix">
+              <div class="one-third">
+                <div class="stat">20</div>
+                <div class="stat-value">Win</div>
+              </div>
+      
+              <div class="one-third">
+                <div class="stat">16</div>
+                <div class="stat-value">Lose</div>
+              </div>
+      
+              <div class="one-third no-border">
+                <div class="stat">55%</div>
+                <div class="stat-value">Win ratio</div>
+              </div>
+      
+            </div>
+      
+          </div>
+
+          <div class="clash-card anivia">
+            <div class="clash-card__image clash-card__image--anivia">
+              <img class ="img-barb" src="src/anivia-tr.png"/>
+            </div>
+            <div class="clash-card__unit-name">Anivia</div>
+            <div class="clash-card__unit-description">
+              The Barbarian is a kilt-clad Scottish warrior with an angry, battle-ready expression, hungry for destruction. He has Killer yellow horseshoe mustache.
+            </div>
+      
+            <div class="clash-card__unit-stats clash-card__unit-stats--barbarian clearfix">
+              <div class="one-third">
+                <div class="stat">20</div>
+                <div class="stat-value">Win</div>
+              </div>
+      
+              <div class="one-third">
+                <div class="stat">16</div>
+                <div class="stat-value">Lose</div>
+              </div>
+      
+              <div class="one-third no-border">
+                <div class="stat">55%</div>
+                <div class="stat-value">Win ratio</div>
+              </div>
+      
+            </div>
+      
+          </div>
+        
+        
+        <script src="index.js"></script>
+    </body>
+</html>
